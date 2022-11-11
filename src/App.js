@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="header">Blueno's Bakery @2022</h1> {/* TODO: personalize your bakery (if you want) */}
+      <h1>Blueno's Bakery @2022</h1> {/* TODO: personalize your bakery (if you want) */}
         <div className="bakery-container">
            {bakeryData.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
            <p><BakeryItem item = {item} addToCart = {addToCart} /></p>
