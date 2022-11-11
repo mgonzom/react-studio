@@ -4,11 +4,14 @@ function BakeryItem(props){
     return(
  
         <div className="BakeryItem">
+            <img src= {props.item.image} />
             <h3>{props.item.name}</h3>
             <p>{props.item.description}</p>
-            <p>{props.item.price}</p>
-            <img src= {props.item.image} />
-            <button onClick={() => {props.addToCart(props.item)}}>addToCart</button>
+            <div>{props.item.price}</div>
+            <div className="priceButton">
+                
+                <div><button class="button" onClick={() => {props.addToCart(props.item)}}>Add to Cart</button></div>
+            </div>
         </div> 
 
     );

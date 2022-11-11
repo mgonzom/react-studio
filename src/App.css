@@ -1,10 +1,21 @@
 /* Add styling for your page here */
 
 .App {
-    color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+   
 }
 
-.BakeryItem {
-    color: teal;
-  
-}
+.bakery-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+   }
+
+ .cart{
+    display:flex;
+    flex-direction: column;
+ }  

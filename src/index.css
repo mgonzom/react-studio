@@ -12,12 +12,31 @@ code {
     monospace;
 }
  h1{
-  color:teal;
+  color:sienna;
+ }
+ h2{
+  color: black;
  }
 
- .bakery-container{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding: 20px;
+
+ .Total{
+  color: indianred;
  }
+
+ img{
+  height: 480px;
+  width: auto;
+ }
+ .button{
+  background-color:seashell;
+  min-height:40px; 
+  min-width: 150px;
+  border-radius: 10px;
+  font-size: 20px;
+ }
+
+ .button:hover {
+  background-color:whitesmoke;
+  transition: 0.7s;
+}
+
